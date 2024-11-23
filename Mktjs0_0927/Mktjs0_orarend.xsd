@@ -30,7 +30,7 @@
         <xs:restriction base="xs:string"/>
     </xs:simpleType>
 
-    <!-- Összetett típusok -->
+    <!-- Összetett típusok és attribútumok -->
     <xs:complexType name="idopontTipus">
         <xs:sequence>
             <xs:element name="nap" type="napTipus"/>
