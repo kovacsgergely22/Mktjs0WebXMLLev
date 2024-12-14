@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<oktatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDmktjs0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><oktatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDmktjs0.xsd">
     <tanulok>
         <tanulo felhID="FELH0001" felhnev="kovacsgergely">
             <nev>Kovács Gergely</nev>
@@ -54,12 +53,12 @@
             <cim>Adatbázis-rendszerek - Alapvetés</cim>
             <kiado>Panem</kiado>
             <megjelenEv>2009</megjelenEv>
-            <kategoria></kategoria>
+            <kategoria/>
         </konyv>
         <konyv kID="K0003" nyID="NY0001">
             <szerzo>Kövesdán Gábor</szerzo>
             <cim>Szoftverfejlesztés Java SE platformon</cim>
-            <kiado></kiado>
+            <kiado/>
             <megjelenEv>2014</megjelenEv>
             <kategoria>Java</kategoria>
         </konyv>
@@ -74,19 +73,19 @@
         </konyv>
     </konyvek>
     <olvasas>
-        <olvas olvasID="OLVAS0001" felhID="FELH0001" kID="K0001">
+        <olvas felhID="FELH0001" kID="K0001" olvasID="OLVAS0001">
             <kezdete>2021-01-01</kezdete>
             <vege>2021-01-31</vege>
         </olvas>
-        <olvas olvasID="OLVAS0002" felhID="FELH0002" kID="K0001">
+        <olvas felhID="FELH0002" kID="K0001" olvasID="OLVAS0002">
             <kezdete>2021-01-01</kezdete>
             <vege>2021-01-31</vege>
         </olvas>
-        <olvas olvasID="OLVAS0003" felhID="FELH0003" kID="K0001">
+        <olvas felhID="FELH0003" kID="K0001" olvasID="OLVAS0003">
             <kezdete>2021-01-01</kezdete>
             <vege>2021-01-31</vege>
         </olvas>
-        <olvas olvasID="OLVAS0004" felhID="FELH0004" kID="K0001">
+        <olvas felhID="FELH0004" kID="K0001" olvasID="OLVAS0004">
             <kezdete>2021-01-01</kezdete>
             <vege>2021-01-31</vege>
         </olvas>
@@ -102,7 +101,7 @@
         <ebook eID="E0002" nyID="NY0002">
             <szerzo>Dr Adamkó Attila</szerzo>
             <cim>Fejlett adatbázis technológiák</cim>
-            <kiado></kiado>
+            <kiado/>
             <megjelenEv>2013</megjelenEv>
             <link>https://dtk.tankonyvtar.hu/handle/123456789/12049</link>
         </ebook>
@@ -122,25 +121,25 @@
         </ebook>
     </eolvasas>
     <onkurzusok>
-        <onkurzus oID="O0001" nyID="NY0002">
+        <onkurzus nyID="NY0002" oID="O0001">
             <cim>XML Mastery: Unleashing the Power of Data Markup</cim>
             <kiado>EDUCBA Bridging the Gap</kiado>
             <megjelenEv>2024</megjelenEv>
             <link>https://www.udemy.com/course/xml-novice-to-ninja/</link>
         </onkurzus>
-        <onkurzus oID="O0002" nyID="NY0002">
+        <onkurzus nyID="NY0002" oID="O0002">
             <cim>XML Essentials: Structure and Share Data Efficiently.</cim>
             <kiado>Faris Azam</kiado>
             <megjelenEv>2024</megjelenEv>
             <link>https://www.udemy.com/course/xml-essentials-structure-and-share-data-efficiently/</link>
         </onkurzus>
-        <onkurzus oID="O0003" nyID="NY0002">
+        <onkurzus nyID="NY0002" oID="O0003">
             <cim>XML and XSD: a complete W3C-content based course (+10 hours)</cim>
             <kiado>Daniel Pinheiro Maia</kiado>
             <megjelenEv>2019</megjelenEv>
             <link>https://www.udemy.com/course/xml-and-xsd-a-complete-w3c-content-based-course/</link>
         </onkurzus>
-        <onkurzus oID="O0004" nyID="NY0002">
+        <onkurzus nyID="NY0002" oID="O0004">
             <cim>Data Representation and Serialization</cim>
             <kiado>ITPro TV</kiado>
             <megjelenEv>2019</megjelenEv>
@@ -149,29 +148,25 @@
     </onkurzusok>
     <oktatok>
         <oktato oktID="OKT0001">
-            <nev></nev>
-            <email></email>
-            <weboldal></weboldal>
+            <nev>Dr. Kovács Gergely</nev>
+            <email/>
+            <weboldal/>
         </oktato>
         <oktato oktID="OKT0002">
-            <nev></nev>
-            <email></email>
-            <weboldal></weboldal>
+            <nev/>
+            <email>kovacs.gergely@example.com</email>
+            <weboldal/>
         </oktato>
-        <oktato oktID="OKT0003">
-            <nev></nev>
-            <email></email>
-            <weboldal></weboldal>
-        </oktato>
+        
         <oktato oktID="OKT0004">
-            <nev></nev>
-            <email></email>
-            <weboldal></weboldal>
+            <nev/>
+            <email/>
+            <weboldal/>
         </oktato>
     </oktatok>
     <nyelvek>
         <nyelv nyID="NY0001">
-            <nev>Magyar</nev>
+            <nev>Spanyol</nev>
         </nyelv>
         <nyelv nyID="NY0002">
             <nev>Angol</nev>
@@ -179,5 +174,5 @@
         <nyelv nyID="NY0003">
             <nev>Német</nev>
         </nyelv>
-    </nyelvek>
+    <nyelv nyID="NY0004"><nev>Francia</nev></nyelv></nyelvek>
 </oktatas>
